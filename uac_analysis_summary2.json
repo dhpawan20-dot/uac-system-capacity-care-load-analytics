@@ -1,0 +1,124 @@
+{
+  "date_range": [
+    "2023-01-12",
+    "2025-12-21"
+  ],
+  "n_days_total": 1075,
+  "n_raw_rows": 720,
+  "n_duplicate_dates_removed": 0,
+  "n_missing_dates_filled": 355,
+  "n_logical_anomalies_flagged": 121,
+  "high_load_threshold_p75": 8247.5,
+  "high_load_runs_7plus_days": [
+    {
+      "start": "2023-04-26",
+      "end": "2023-05-19",
+      "days": 24
+    },
+    {
+      "start": "2023-08-01",
+      "end": "2024-01-14",
+      "days": 167
+    },
+    {
+      "start": "2024-01-22",
+      "end": "2024-03-23",
+      "days": 62
+    }
+  ],
+  "strain_windows_14plus_days": [
+    {
+      "start": "2024-02-07",
+      "end": "2024-03-12",
+      "days": 35
+    },
+    {
+      "start": "2024-04-19",
+      "end": "2024-05-09",
+      "days": 21
+    },
+    {
+      "start": "2024-05-11",
+      "end": "2024-06-08",
+      "days": 29
+    },
+    {
+      "start": "2024-08-18",
+      "end": "2024-09-12",
+      "days": 26
+    },
+    {
+      "start": "2024-09-28",
+      "end": "2024-11-20",
+      "days": 54
+    },
+    {
+      "start": "2024-11-25",
+      "end": "2024-12-22",
+      "days": 28
+    },
+    {
+      "start": "2025-03-19",
+      "end": "2025-04-18",
+      "days": 31
+    },
+    {
+      "start": "2025-04-30",
+      "end": "2025-05-25",
+      "days": 26
+    },
+    {
+      "start": "2025-09-11",
+      "end": "2025-09-25",
+      "days": 15
+    },
+    {
+      "start": "2025-10-14",
+      "end": "2025-10-30",
+      "days": 17
+    },
+    {
+      "start": "2025-11-22",
+      "end": "2025-12-05",
+      "days": 14
+    }
+  ],
+  "early_vs_late": {
+    "early_period": "2023-01-12 to 2024-07-02",
+    "late_period": "2024-07-02 to 2025-12-21",
+    "early_avg_total_load": 8598.7,
+    "late_avg_total_load": 3869.2,
+    "early_avg_net_intake": -106.05,
+    "late_avg_net_intake": -3.57
+  },
+  "kpis": {
+    "TotalChildrenUnderCare": {
+      "value": 2502.0,
+      "description": "System-wide responsibility (CBP + HHS combined)"
+    },
+    "NetIntakePressure": {
+      "value": 0.49,
+      "description": "Inflow vs outflow imbalance (30-day avg transfers-in minus discharges)"
+    },
+    "CareLoadVolatilityIndex": {
+      "value": 103.6,
+      "description": "Stability of system (90-day std. dev. of total load)"
+    },
+    "BacklogAccumulationRate": {
+      "value": 50.0,
+      "description": "Sustained care pressure (% of last 90 days with positive net intake)"
+    },
+    "DischargeOffsetRatio": {
+      "value": 94.8,
+      "description": "Ability to relieve load (discharges as % of transfers-in, last 30 days)"
+    }
+  },
+  "trend_slope_last_28d": 4.344,
+  "latest_totals": {
+    "Date": "2025-12-21",
+    "TotalSystemLoad": 2502.0,
+    "CBPCustody": 18.0,
+    "HHSCare": 2484.0,
+    "NetDailyIntake": -3.0
+  }
+}
